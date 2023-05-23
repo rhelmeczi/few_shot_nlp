@@ -1,0 +1,12 @@
+datasets==2.12.0
+torch==2.0.1
+rich==13.3.5
+accelerate==0.19.0
+scikit-learn==1.2.2
+sentence-transformers==2.2.2
+setfit==0.7.0
+pandas==2.0.1
+numpy==1.24.3
+typer==0.9.0
+matplotlib==3.7.1
+transformers==4.29.2
