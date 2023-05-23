@@ -2,6 +2,11 @@
 
 This repository contains some of the code from my Master's thesis.
 
+## Usage with Google Colab
+
+You can upload the notebook at `examples/colab_notebook.ipynb` and follow the instructions there to get started with training and evaluation for free with accelerated hardware.
+You can refer back to this README for usage on your local computer or for some more in depth instructions.
+
 ## Getting Started
 
 Add the project home folder to your `PYTHONPATH`:
