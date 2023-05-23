@@ -56,7 +56,7 @@ def main(
     ],
     # shared optional arguments
     output_parent_dir: Annotated[
-        str, typer.Argument(help="The folder to save results to.")
+        str, typer.Option(help="The folder to save results to.")
     ] = "output",
     datasets_path: Annotated[
         str, typer.Option(help="The folder containing the dataset to load.")
