@@ -33,7 +33,7 @@ def main(
     ] = [Algorithm.FINE_TUNING.value, Algorithm.SETFIT.value],
     output_script_path: Annotated[
         pathlib.Path, typer.Option(help="The path to save the resulting scripts to.")
-    ] = pathlib.Path("training_scipts.sh"),
+    ] = pathlib.Path("training_scripts.sh"),
 ):
     all_scripts = []
     for seed_folder in (pathlib.Path(datasets_path) / dataset_name).iterdir():
